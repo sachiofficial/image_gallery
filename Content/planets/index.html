@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blogs &raquo; Sachintha Lakshan</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+  <link rel="manifest" href="Images/site.webmanifest">
+  <script src="https://kit.fontawesome.com/d5f232d1ec.js"></script>
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sansd&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="CSS/Single viewe blogs background.css">
+  <link rel="stylesheet" href="CSS/Single viewe blogs.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="Images/logo.png" width="200" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="Images/logo.png" width="200" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="https://sachiofficial.github.io" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a class="active" href="https://sachiofficial.github.io/Blogs.html" class="navbar-link hover-1" data-nav-toggler>Blogs</a>
+          </li>
+
+          <li>
+            <a href="https://sachiofficial.github.io/image_gallery" class="navbar-link hover-1" data-nav-toggler>Gallery</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="Images/author.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Viwer !</p>
+
+              <p class="card-subtitle">
+                Enjoy your day with me.
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2022 © SACHINTHA LAKSHAN.
+          Developed by SACHI.
+        </p>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Download</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header> 
+
+  <div id="loading-screen" class="loading-screen">
+    <svg class="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
+        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
+        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+      </linearGradient>
+      <linearGradient id="pl-grad2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
+        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+      </linearGradient>
+    </defs>
+    <circle class="pl__ring" cx="100" cy="100" r="82" fill="none" stroke="url(#pl-grad1)" stroke-width="36" stroke-dasharray="0 257 1 257" stroke-dashoffset="0.01" stroke-linecap="round" transform="rotate(-90,100,100)" />
+    <line class="pl__ball" stroke="url(#pl-grad2)" x1="100" y1="18" x2="100.01" y2="182" stroke-width="36" stroke-dasharray="1 165" stroke-linecap="round" />
+  </svg></div>
+
+
+  <div class="box"><br><br>
+    <h2>A Vision of Planetary Transformation in Our Solar System</h2>
+    <img src="Images/planet-I.webp">
+   <b> <p>Purifying a planet, in a literal sense, involves cleansing it of any pollutants, contaminants, or harmful substances to make it more habitable for humans or other life forms. While the concept of planet purification is currently the stuff of science fiction, it's an intriguing idea to explore how such a process might unfold, even if it remains beyond our current technological capabilities. In this ambitious narrative, I will describe the process of purifying each of the eight planets in our solar system, using at least 1000 words to ensure a comprehensive exploration.
+  </b>  <br><br>
+      <span>⇨  Mercury - The Fiery Messenger</span>
+      <br>
+      <img src="Images/planet-II.jpg">
+      <br>
+      <b>Mercury, the closest planet to the Sun, presents one of the most challenging environments for human habitation. Its proximity to the Sun results in extreme temperature fluctuations, with scorching days and frigid nights. To purify Mercury, we must first address these temperature extremes. One approach might involve creating a colossal, heat-resistant shield to block excess sunlight, while simultaneously developing advanced thermal insulation to maintain a stable temperature.
+        <br><br>
+        Another major challenge on Mercury is its lack of a substantial atmosphere. Without a protective shield of gases, the planet is bombarded by solar radiation and micrometeorites. Purifying Mercury would require creating an artificial atmosphere, a process known as terraforming. This atmosphere would not only protect the surface but also allow for the circulation of gases and the stabilization of temperatures.
+        <br><br>
+        Next, the surface of Mercury is covered in craters, a result of countless cosmic collisions over eons. Purification would involve a massive effort to fill in or level these craters, providing a more stable and hospitable terrain. Additionally, introducing water and vegetation to the surface would help to further stabilize the environment and make it more suitable for life.
+      </b><br><br>
+      <span>⇨ Venus - The Goddess of Love and Heat</span>
+      <br>
+      <img src="Images/planet-III.jpg">
+      <br>
+      <b>Venus, known for its extreme heat and thick, corrosive atmosphere, poses a significant challenge for purification. To make Venus more habitable, we would need to address its surface temperatures, which are hot enough to melt lead. Advanced technologies could be used to create a colossal system of sunshades, orbital mirrors, or reflective particles in the upper atmosphere to reduce the amount of sunlight reaching the surface.
+        <br><br>
+        Furthermore, the dense atmosphere of Venus, mostly composed of carbon dioxide, is a major hurdle to overcome. To purify this planet, we might employ massive carbon capture and sequestration systems, coupled with the introduction of greenhouse gases like nitrogen and oxygen to gradually transform the atmosphere into a more Earth-like composition.
+        <br><br>
+        Venus' surface is marked by vast plains and highland regions, many of which exhibit volcanic activity. Purification efforts would entail advanced geological engineering, perhaps involving the creation of a network of underground habitats to shield against the extreme surface conditions. Surface infrastructure would need to be designed to withstand the planet's corrosive atmosphere.
+      </b><br><br>
+      <span>⇨  Earth - Our Beloved Blue Oasis</span>
+      <br>
+      <img src="Images/planet-IV.jpg">
+      <br>
+      <b>While Earth is our home, it is not immune to the impacts of pollution and environmental degradation. To purify our own planet, we must take significant steps to address climate change, reduce pollution, and protect natural ecosystems. This involves transitioning to renewable energy sources, reducing greenhouse gas emissions, and implementing sustainable practices in agriculture and industry.
+        <br><br>
+        Conservation efforts would be key to preserving Earth's biodiversity. This includes creating and protecting natural reserves and wildlife sanctuaries, enforcing sustainable fishing practices, and preventing deforestation.
+        <br><br>
+        To address pollution, purifying Earth would require large-scale efforts to clean up contaminated areas, reduce plastic waste, and manage toxic materials safely. It would involve investing in advanced waste management and recycling technologies to minimize our impact on the environment.
+      </b><br><br>
+      <span>⇨ Mars - The Red Wanderer</span>
+      <br>
+      <img src="Images/planet-V.jpg">
+      <br>
+      <b>Mars, often dubbed a potential second home for humanity, offers unique challenges for purification. To make Mars more habitable, we would need to address its thin atmosphere and lack of a magnetic field, which leaves the surface exposed to harmful solar and cosmic radiation.
+        <br><br>
+        One crucial step in the purification of Mars would be to thicken its atmosphere. This could be accomplished by introducing greenhouse gases, like carbon dioxide, which would trap heat and raise surface temperatures. Advanced technology might enable us to release gases from underground reservoirs or import them from other celestial bodies.
+        <br><br>
+        Mars' surface is covered in iron oxide, giving it a reddish appearance. This iron-rich soil could be processed to extract oxygen and refine the regolith, making it suitable for agriculture. Greenhouses equipped with artificial lighting could support plant growth in the Martian soil.
+        <br><br>
+        Purifying Mars would also involve creating underground habitats to shield against radiation and extreme surface conditions. These habitats would be equipped with life support systems, waste recycling, and radiation shielding to ensure human survival.
+      </b><br><br>
+      <span>⇨ Jupiter - The King of Giants</span>
+      <br>
+      <img src="Images/planet-VI.avif">
+      <br>
+      <b>Jupiter, the largest planet in our solar system, is a gas giant composed mostly of hydrogen and helium. It lacks a solid surface, which presents a unique challenge for purification. To make Jupiter more habitable, we would need to develop advanced floating habitats that can endure the turbulent atmosphere.
+        <br><br>
+        The atmosphere of Jupiter is filled with violent storms and intense radiation. Purification would require creating massive, resilient platforms suspended in the atmosphere, equipped with shielding to protect against radiation and extreme temperatures. Advanced materials and energy sources would be essential for these platforms.
+        <br><br>
+        One of the significant hurdles in purifying Jupiter is the lack of solid ground for agriculture. Advanced biotechnology and hydroponics could be employed to cultivate food in controlled environments within the floating habitats. Synthetic ecosystems could be designed to support a variety of plant and animal life.
+    </b><br><br>
+    <span>⇨ Saturn - The Lord of Rings</span>
+    <br>
+    <img src="Images/planet-VII.webp">
+    <br>
+    <b>Saturn, famous for its stunning system of icy rings, offers unique challenges and opportunities for purification. The rings themselves could serve as a valuable resource for constructing habitats and generating energy through solar panels.
+      <br><br>
+      Saturn's atmosphere, primarily composed of hydrogen and helium, presents challenges similar to those on Jupiter. To purify Saturn, we would need to create floating habitats in the planet's atmosphere. These habitats could extract hydrogen and helium from the atmosphere for fuel and life support systems.
+      <br><br>
+      The icy rings of Saturn could be harvested for water, which would be essential for sustaining life within the floating habitats. Advanced technologies would be required to extract and purify water from the rings and to distribute it throughout the habitats.
+      <br><br>
+      The absence of a solid surface on Saturn also means that agriculture would need to be conducted in controlled environments within the habitats. Advanced hydroponic and biotechnology systems would be crucial for growing food and supporting ecosystems.
+    </b><br><br>
+    <span>⇨  Uranus - The Sideways Wonder</span>
+    <br>
+    <img src="Images/planet-VIII.jpg">
+    <br>
+    <b>Uranus, an ice giant with a peculiar sideways rotation, presents distinctive challenges for purification. The planet's extreme axial tilt results in extreme seasonal variations, making it essential to develop advanced climate control systems for any potential habitats.
+      <br><br>
+      To make Uranus more habitable, we would need to create floating platforms or submersible habitats in the planet's thick atmosphere. These platforms could be equipped with advanced climate control systems to maintain stable temperatures and protect against the harsh environment.
+      <br><br>
+      Uranus also has a unique system of faint rings. These rings could be utilized for resource extraction and energy generation, providing valuable materials for habitat construction and power generation.
+      <br><br>
+      The absence of a solid surface on Uranus would require agriculture to be conducted in controlled environments within the habitats. Advanced biotechnology and hydroponic systems would be essential for growing crops and supporting ecosystems.
+    </b><br><br>
+    <span>⇨  Neptune - The Mysterious Deep Blue</span>
+    <br>
+    <img src="Images/planet-IX.jpg">
+    <br>
+    <b>Neptune, the farthest planet from the Sun, is a frigid ice giant with a turbulent atmosphere. Purifying Neptune would require creating advanced submersible habitats capable of withstanding extreme pressure and cold temperatures.
+      <br><br>
+      The planet's tempestuous atmosphere is characterized by fierce winds and violent storms. Advanced structural materials and engineering would be necessary to construct habitats that can endure these conditions.
+      <br><br>
+      Neptune's deep blue appearance is due to the presence of methane in its atmosphere. Extracting and processing methane for energy and life support systems would be crucial for the purification of this planet.
+      <br><br>
+      Like the other gas giants, Neptune lacks a solid surface, necessitating agriculture to be conducted in controlled environments within the habitats. Advanced biotechnology and hydroponics could be employed to grow food and sustain ecosystems.
+      <br><br>
+      In summary, the concept of purifying planets in our solar system is a complex and ambitious endeavor that would require advanced technologies and a deep understanding of planetary science. Each planet presents its unique challenges, from extreme temperatures to hostile atmospheres and the absence of solid surfaces. While these ideas remain in the realm of science fiction for now, they serve as a fascinating thought experiment and a testament to humanity's boundless curiosity and ingenuity as we continue to explore and understand the cosmos.
+    </b><br><br>
+    <br></p>
+</div>
+<br><br><br><br>
+<footer>
+  <div class="row">
+    <div class="col">
+    <img class="image245" src="Images/logo.png">
+    <p>Constructive feedback is crucial for growth. Be clear, specific, and balanced in your feedback.Embrace feedback for better results and success.</p>
+    </div>
+    <div class="col1">
+    <h6>House</h6>
+    <p>Matale</p>
+    <p>Laggala-pallegama</p>
+    <p>Kandepitawala</p><br>
+    <h4>+94-764439530</h4>
+    <p class="email-id"><a href="hello.sachinthalakshan@gmail.com"><b>hello.sachinthalakshan@gmail.com</b></a></p>
+    </div>
+    <div class="col">
+    <h3>Links</h3>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="Blogs.html">Blog Posts</a></li>
+      <li><a href="">Contract us</a></li>
+      <li><a href="">Our Gallery</a></li>
+      <li><a href="">our Services</a></li>
+    </ul>
+    </div>
+    <div class="col">
+    <h3>Newsletter</h3>
+    <form>
+      <i class="fa-regular fa-envelope" style="color: hsla(199, 89%, 49%, 1);"></i>
+      <input type="email" placeholder="Enter your email id" required>
+      <button type="submit"><i class="fa-solid fa-arrow-right" style="color: hsla(199, 89%, 49%, 1);"></i></button>
+    </form>
+    <div class="social-icons">
+      <i class="fa-brands fa-youtube" style="color: hsla(199, 89%, 49%, 1);"></i>
+      <i class="fa-brands fa-facebook-f" style="color: hsla(199, 89%, 49%, 1)"></i>
+      <i class="fa-brands fa-whatsapp" style="color: hsla(199, 89%, 49%, 1)"></i>
+      <i class="fa-brands fa-tiktok" style="color: hsla(199, 89%, 49%, 1)"></i>
+    </div>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright">Sachintha Lakshan © 2023 - All Rights Reserved</p>
+  </footer>
+     
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      const loadingScreen = document.getElementById("loading-screen");
+      loadingScreen.style.display = "none";
+    });
+  </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  
+
+</body>
+
+</html>

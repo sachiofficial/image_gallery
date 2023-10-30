@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Blogs &raquo; Sachintha Lakshan</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+  <link rel="manifest" href="Images/site.webmanifest">
+  <script src="https://kit.fontawesome.com/d5f232d1ec.js"></script>
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sansd&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="CSS/Single viewe blogs background.css">
+  <link rel="stylesheet" href="CSS/Single viewe blogs.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="Images/logo.png" width="200" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="Images/logo.png" width="200" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="https://sachiofficial.github.io" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a class="active" href="https://sachiofficial.github.io/Blogs.html" class="navbar-link hover-1" data-nav-toggler>Blogs</a>
+          </li>
+
+          <li>
+            <a href="https://sachiofficial.github.io/image_gallery" class="navbar-link hover-1" data-nav-toggler>Gallery</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="Images/author.png" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Viwer !</p>
+
+              <p class="card-subtitle">
+                Enjoy your day with me.
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2022 © SACHINTHA LAKSHAN.
+          Developed by SACHI.
+        </p>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Download</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header> 
+
+  <div id="loading-screen" class="loading-screen">
+    <svg class="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
+        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
+        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+      </linearGradient>
+      <linearGradient id="pl-grad2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="hsl(313,90%,55%)" />
+        <stop offset="100%" stop-color="hsl(223,90%,55%)" />
+      </linearGradient>
+    </defs>
+    <circle class="pl__ring" cx="100" cy="100" r="82" fill="none" stroke="url(#pl-grad1)" stroke-width="36" stroke-dasharray="0 257 1 257" stroke-dashoffset="0.01" stroke-linecap="round" transform="rotate(-90,100,100)" />
+    <line class="pl__ball" stroke="url(#pl-grad2)" x1="100" y1="18" x2="100.01" y2="182" stroke-width="36" stroke-dasharray="1 165" stroke-linecap="round" />
+  </svg></div>
+
+
+  <div class="box"><br><br>
+    <h2>5G Providers in Sri Lanka - A Comprehensive Overview of Next-Generation Connectivity</h2>
+    <img src="Images/5G-I.png">
+   <b> <p>In an era marked by digital transformation and rapid technological advancements, the introduction of 5G technology in Sri Lanka represents a pivotal moment in the nation's telecommunications landscape. This fifth-generation wireless technology promises more than just faster internet; it holds the potential to revolutionize industries and everyday life. In this comprehensive exploration, we delve into the 5G providers in Sri Lanka, their contributions, and the evolving state of this cutting-edge technology.
+  </b>  <br><br>
+      <span>⇨ The Evolution of Connectivity in Sri Lanka</span>
+      <br>
+      <img src="Images/5G-II.jpg">
+      <br>
+      <b>To appreciate the significance of 5G, it's crucial to understand the evolution of connectivity in Sri Lanka. Over the past few decades, the country has made remarkable progress in the telecommunications sector. From the days of 2G and 3G, which brought voice and basic data services to the masses, to the widespread adoption of 4G, enabling faster internet and mobile applications, Sri Lanka has steadily advanced in the realm of connectivity.
+      </b><br><br>
+      <span>⇨ Dialog Axiata - Pioneering 5G Excellence</span>
+      <br>
+      <img src="Images/5G-III.jpg">
+      <br>
+      <b>Dialog Axiata, a key player in Sri Lanka's telecommunications industry, has been a frontrunner in the race to deploy 5G. Their significant investments in infrastructure upgrades have led to the establishment of a robust 5G network in key urban areas. The cities of Colombo and Kandy, among others, now experience the power of 5G with lightning-fast internet speeds and the potential for groundbreaking innovations.
+        <br><br>
+        Dialog's 5G network extends its support beyond smartphones and tablets; it acts as a foundation for the Internet of Things (IoT). This enables smart city initiatives, automated industrial processes, and enhanced healthcare services. Dialog is undeniably leading the charge in leveraging 5G for the betterment of various industries in Sri Lanka.
+      </b><br><br>
+      <span>⇨ SLT-Mobitel - Enabling a Connected Future</span>
+      <br>
+      <img src="Images/5G-IV.jpg">
+      <br>
+      <b>Sri Lanka Telecom Mobitel, another prominent telecom provider, has not been far behind in the 5G race. They have been actively involved in trials and the gradual deployment of 5G technology. Mobitel envisions a future where 5G will underpin smart cities, healthcare solutions, and various other industries. With plans to expand their coverage nationwide, Mobitel is poised to provide high-speed, low-latency connectivity to an ever-growing customer base.
+      </b><br><br>
+      <span>⇨ Hutch - Innovation in the 5G Arena</span>
+      <br>
+      <img src="Images/5G-V.jpg">
+      <br>
+      <b>Hutch, known for its dynamic and innovative approach, is making significant strides in the 5G arena. While they are in the process of deploying 5G services in select areas, Hutch's entry into this market promises to intensify competition. This will likely result in more diverse options and affordable 5G plans for consumers.
+        <br><br>
+        Hutch's involvement in 5G also underscores the potential for greater connectivity in Sri Lanka's remote and underserved regions, contributing to digital inclusion.
+      </b><br><br>
+      <span>⇨  Airtel Sri Lanka - Joining the 5G Revolution</span>
+      <br>
+      <img src="Images/5G-VI.jpg">
+      <br>
+      <b>Airtel Sri Lanka is actively working on expanding its 5G infrastructure. The company is committed to delivering high-speed internet and advanced communication services. With Airtel's entry into the 5G market, consumers can anticipate improved connectivity options and a wider array of services.
+   <br><br></b>
+      </b><span>⇨ The 5G Revolution in Sri Lanka</span>
+      <br>
+      <img src="Images/5G-VII.jpg">
+      <br>
+      <b>The introduction of 5G technology in Sri Lanka signifies a monumental shift in the country's digital landscape. As Dialog Axiata, Mobitel, Hutch, Airtel Sri Lanka, and SLT actively invest in infrastructure and expand their 5G networks, the promise of faster internet, lower latency, and a myriad of new opportunities for businesses and consumers becomes increasingly tangible.
+        <br><br>
+        With 5G, Sri Lanka is poised for a digital revolution. Whether it's for enabling remote work, enhancing entertainment experiences, advancing healthcare through telemedicine, or supporting smart city initiatives, the arrival of 5G in Sri Lanka is set to redefine how the nation connects and communicates.
+      </b><br><br>
+    <br></p>
+</div>
+<br><br><br><br>
+<footer>
+  <div class="row">
+    <div class="col">
+    <img class="image245" src="Images/logo.png">
+    <p>Constructive feedback is crucial for growth. Be clear, specific, and balanced in your feedback.Embrace feedback for better results and success.</p>
+    </div>
+    <div class="col1">
+    <h6>House</h6>
+    <p>Matale</p>
+    <p>Laggala-pallegama</p>
+    <p>Kandepitawala</p><br>
+    <h4>+94-764439530</h4>
+    <p class="email-id"><a href="hello.sachinthalakshan@gmail.com"><b>hello.sachinthalakshan@gmail.com</b></a></p>
+    </div>
+    <div class="col">
+    <h3>Links</h3>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="Blogs.html">Blog Posts</a></li>
+      <li><a href="">Contract us</a></li>
+      <li><a href="">Our Gallery</a></li>
+      <li><a href="">our Services</a></li>
+    </ul>
+    </div>
+    <div class="col">
+    <h3>Newsletter</h3>
+    <form>
+      <i class="fa-regular fa-envelope" style="color: hsla(199, 89%, 49%, 1);"></i>
+      <input type="email" placeholder="Enter your email id" required>
+      <button type="submit"><i class="fa-solid fa-arrow-right" style="color: hsla(199, 89%, 49%, 1);"></i></button>
+    </form>
+    <div class="social-icons">
+      <i class="fa-brands fa-youtube" style="color: hsla(199, 89%, 49%, 1);"></i>
+      <i class="fa-brands fa-facebook-f" style="color: hsla(199, 89%, 49%, 1)"></i>
+      <i class="fa-brands fa-whatsapp" style="color: hsla(199, 89%, 49%, 1)"></i>
+      <i class="fa-brands fa-tiktok" style="color: hsla(199, 89%, 49%, 1)"></i>
+    </div>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright">Sachintha Lakshan © 2023 - All Rights Reserved</p>
+  </footer>
+     
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      const loadingScreen = document.getElementById("loading-screen");
+      loadingScreen.style.display = "none";
+    });
+  </script>
+  
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  
+
+</body>
+
+</html>
